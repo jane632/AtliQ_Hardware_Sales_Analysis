@@ -138,8 +138,24 @@ Profit Goal Gap % =
 [Profit Margin %] - [Target Profit Margin]
 ```
 ##  Project Structure
-
-Sales-Analysis-Dashboard │ ├── /Reports │ ├── sales_analysis.pbix # Power BI report file with all visuals and measures │ ├── sales_queries_and_dax.pbix # Power BI file containing queries and DAX measures │ └── /Screenshots # Folder containing screenshots of the Power BI dashboard │ ├── screenshot1.png │ ├── screenshot2.png │ └── screenshot3.png │ ├── /Insights │ ├── insights_folder1 # Folder containing insight files │ │ ├── insight1.pbix │ │ ├── insight2.pbix │ │ └── insight3.pbix │ ├── insights_folder2 # Folder containing another set of insights │ │ ├── insight1.pbix │ │ ├── insight2.pbix │ │ └── insight3.pbix │ └── insights_folder3 # Folder containing the third set of insights │ ├── insight1.pbix │ ├── insight2.pbix │ └── insight3.pbix │ ├── /Data │ └── sales_data.csv # Raw transactional data (single dataset) │ └── README.md # Main README file for the project
+/Project Root
+│
+├── /Data
+│   └── Contains SQL files used for data extraction and manipulation.
+│       └── *.sql
+│
+├── /Sales_Analysis.pbix
+│   └── The Power BI file for the sales analysis dashboard.
+│       └── Sales_Analysis.pbix
+│
+├── /Sales_Analysis_Insights
+│   └── Insights extracted from the analysis with images and screenshots.
+│       └── /Screenshots
+│           └── Contains images and screenshots of key insights.
+│
+├── /Sales_Analysis_Dashboard_Report.pdf
+│   └── The final PDF report summarizing the analysis and insights.
+│       └── Sales_Analysis_Dashboard_Report.pdf
 
 ### Explanation of Folders and Files:
 
