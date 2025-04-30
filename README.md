@@ -69,6 +69,19 @@ The company was growing dynamically but faced a decline in sales. The goal was t
 
 ---
 
+## 🧾 Key SQL Queries & DAX Measures
+
+This section explains the logic behind each SQL and DAX used in the project.
+
+---
+
+### 🔹 MySQL Queries
+
+```sql
+-- Filters out transactions where sales amount is less than or equal to zero
+SELECT * FROM sales_data
+WHERE sales_amount > 0;
+```
 ##  Project Structure
 
 Sales-Analysis-Dashboard │ ├── /Reports │ ├── sales_analysis.pbix # Power BI report file with all visuals and measures │ ├── sales_queries_and_dax.pbix # Power BI file containing queries and DAX measures │ └── /Screenshots # Folder containing screenshots of the Power BI dashboard │ ├── screenshot1.png │ ├── screenshot2.png │ └── screenshot3.png │ ├── /Insights │ ├── insights_folder1 # Folder containing insight files │ │ ├── insight1.pbix │ │ ├── insight2.pbix │ │ └── insight3.pbix │ ├── insights_folder2 # Folder containing another set of insights │ │ ├── insight1.pbix │ │ ├── insight2.pbix │ │ └── insight3.pbix │ └── insights_folder3 # Folder containing the third set of insights │ ├── insight1.pbix │ ├── insight2.pbix │ └── insight3.pbix │ ├── /Data │ └── sales_data.csv # Raw transactional data (single dataset) │ └── README.md # Main README file for the project
