@@ -28,15 +28,15 @@ The company was growing dynamically but faced a decline in sales. The goal was t
 Here are some key screenshots from the Power BI dashboard:
 
 ### Business Overview  
-[![Business Overview](AtliQ_Hardware_Sales_Analysis/Screenshots/Business%20Performance%20Overview.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/Business%20Performance%20Overview.PNG)  
+[![Business Overview](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Business%20Performance%20Overview.PNG)](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Business%20Performance%20Overview.PNG)  
 ---
 
 ### Business Performance Insights  
-[![Business Performance Insights](AtliQ_Hardware_Sales_Analysis/Screenshots/2020_Business_Performance.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/2020_Business_Performance.PNG)  
+[![Business Performance Insights](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/2020_Business_Performance.PNG)](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/2020_Business_Performance.PNG)  
 ---
 
 ### Profit Analysis  
-[![Profit Analysis](AtliQ_Hardware_Sales_Analysis/Screenshots/Profit%20Analysis_2020.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/Profit%20Analysis_2020.PNG)  
+[![Profit Analysis](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Profit%20Analysis_2020.PNG)](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Profit%20Analysis_2020.PNG)  
 ---
 
 ##  Workflow Summary
