@@ -82,6 +82,61 @@ This section explains the logic behind each SQL and DAX used in the project.
 SELECT * FROM sales_data
 WHERE sales_amount > 0;
 ```
+```{sql}
+-- Converts sales amount from USD to INR using a fixed exchange rate (82.5)
+SELECT *, (sales_amount * 82.5) AS sales_amount_inr
+FROM sales_data;
+```
+-- Creates a star schema view by joining orders with customers and products
+-- This prepares a fact table with relevant dimension fields
+```{sql}
+CREATE VIEW sales_transactions AS
+SELECT
+    o.order_id,
+    o.customer_id,
+    o.product_id,
+    o.sales_amount,
+    c.city,
+    p.category
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+JOIN products p ON o.product_id = p.product_id;
+```
+
+## DAX Measures
+```{sql}
+-- Calculates total revenue in INR
+Revenue = SUM('sales_data'[sales_amount_inr])
+```
+```{sql}
+-- Calculates total quantity of items sold
+Sales Qty = SUM('sales_data'[quantity])
+```
+```{sql}
+-- Calculates profit margin as a percentage of revenue
+-- Handles division-by-zero by returning 0 if denominator is zero
+Profit Margin % =
+DIVIDE(
+    SUM('sales_data'[profit]),
+    SUM('sales_data'[sales_amount_inr]),
+    0
+)
+```
+```{sql}
+-- Calculates the percentage contribution of a specific segment’s profit
+-- Uses ALL() to remove filters and get total profit across the dataset
+Profit Margin Contribution % =
+DIVIDE(
+    SUM('sales_data'[profit]),
+    CALCULATE(SUM('sales_data'[profit]), ALL('sales_data')),
+    0
+)
+```
+```{sql}
+-- Shows how far the current profit margin is from the user-defined target
+Profit Goal Gap % =
+[Profit Margin %] - [Target Profit Margin]
+```
 ##  Project Structure
 
 Sales-Analysis-Dashboard │ ├── /Reports │ ├── sales_analysis.pbix # Power BI report file with all visuals and measures │ ├── sales_queries_and_dax.pbix # Power BI file containing queries and DAX measures │ └── /Screenshots # Folder containing screenshots of the Power BI dashboard │ ├── screenshot1.png │ ├── screenshot2.png │ └── screenshot3.png │ ├── /Insights │ ├── insights_folder1 # Folder containing insight files │ │ ├── insight1.pbix │ │ ├── insight2.pbix │ │ └── insight3.pbix │ ├── insights_folder2 # Folder containing another set of insights │ │ ├── insight1.pbix │ │ ├── insight2.pbix │ │ └── insight3.pbix │ └── insights_folder3 # Folder containing the third set of insights │ ├── insight1.pbix │ ├── insight2.pbix │ └── insight3.pbix │ ├── /Data │ └── sales_data.csv # Raw transactional data (single dataset) │ └── README.md # Main README file for the project
