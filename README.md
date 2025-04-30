@@ -1,10 +1,6 @@
 # AtliQ_Hardware_Sales_Analysis
 This Power BI project provides business performance insights for AtliQ Hardware — an India-based company supplying computer hardware across multiple regions.  The project helps stakeholders identify sales trends, regional performance, and profit analysis using clean, interactive dashboards.
 
-
-markdown
-Copy
-Edit
 #  Sales Analysis Dashboard (Power BI Project)
 
 A comprehensive Power BI project focused on uncovering actionable insights from sales data. This analysis supports business decision-making, highlights underperformance, and identifies growth opportunities.
@@ -26,6 +22,21 @@ The company was growing dynamically but faced a decline in sales. The goal was t
 - **Star Schema** Data Modeling
 - Manual ETL pipeline for data cleaning, transformation, and loading
 
+---
+##  Dashboard Preview
+
+Here are some key screenshots from the Power BI dashboard:
+
+### Business Overview  
+[![Business Overview](AtliQ_Hardware_Sales_Analysis/Screenshots/Business%20Performance%20Overview.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/Business%20Performance%20Overview.PNG)  
+---
+
+### Business Performance Insights  
+[![Business Performance Insights](AtliQ_Hardware_Sales_Analysis/Screenshots/2020_Business_Performance.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/2020_Business_Performance.PNG)  
+---
+
+### Profit Analysis  
+[![Profit Analysis](AtliQ_Hardware_Sales_Analysis/Screenshots/Profit%20Analysis_2020.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/Profit%20Analysis_2020.PNG)  
 ---
 
 ##  Workflow Summary
@@ -75,7 +86,7 @@ This section explains the logic behind each SQL and DAX used in the project.
 
 ---
 
-### 🔹 MySQL Queries
+###  MySQL Queries
 
 ```sql
 -- Filters out transactions where sales amount is less than or equal to zero
