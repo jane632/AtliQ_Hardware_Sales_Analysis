@@ -24,7 +24,7 @@ Here are some key screenshots from the Power BI dashboard:
 ---
 
 ### Business Performance Insights  
-[![Business Performance Insights](AtliQ_Hardware_Sales_Analysis/Screenshots/2020_Business_Performance.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/2020_Business_Performance.PNG)  
+[![Business Performance Insights](AtliQ_Hardware_Sales_Analysis/Screenshots/2020_Business_Performance.PNG)](Screenshots/2020_Business_Performance.PNG)  
 ---
 
 ### Profit Analysis  
