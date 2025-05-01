@@ -19,8 +19,9 @@ The company was growing dynamically but faced a decline in sales. The goal was t
 
 Here are some key screenshots from the Power BI dashboard:
 
-### Business Overview  
-[![Business Overview](AtliQ_Hardware_Sales_Analysis/Screenshots/Business%20Performance%20Overview.PNG)](Screenshots/Business Performance Overview.PNG)  
+### 📊 Business Overview
+
+[![Business Performance Overview](Screenshots/Business%20Performance%20Overview.PNG)](Screenshots/Business%20Performance%20Overview.PNG) 
 ---
 
 ### Business Performance Insights  
