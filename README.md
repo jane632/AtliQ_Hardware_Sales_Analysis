@@ -30,8 +30,10 @@ Here are some key screenshots from the Power BI dashboard:
 [![Business Performance Insights](Screenshots/2020_Business_Performance.PNG)](Screenshots/2020_Business_Performance.PNG)
 
 
-### Profit Analysis  
-[![Profit Analysis](AtliQ_Hardware_Sales_Analysis/Screenshots/Profit%20Analysis_2020.PNG)](AtliQ_Hardware_Sales_Analysis/Screenshots/Profit%20Analysis_2020.PNG)  
+###  Profit Analysis
+
+[![Profit Analysis](Screenshots/Profit%20Analysis_2020.PNG)](Screenshots/Profit%20Analysis_2020.PNG)
+  
 ---
 
 ##  Tools & Technologies
@@ -98,7 +100,7 @@ Here are some key screenshots from the Power BI dashboard:
 
 ---
 
-## 🧾 Key SQL Queries & DAX Measures
+##  Key SQL Queries & DAX Measures
 
 This section explains the logic behind each SQL and DAX used in the project.
 
