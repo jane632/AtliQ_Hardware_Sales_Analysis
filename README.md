@@ -43,21 +43,6 @@ Here are some key screenshots from the Power BI dashboard:
 - Manual ETL pipeline for data cleaning, transformation, and loading
 
 ---
-##  Dashboard Preview
-
-Here are some key screenshots from the Power BI dashboard:
-
-### Business Overview  
-[![Business Overview](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Business Performance Overview.PNG)](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Business Performance Overview.PNG)  
----
-
-### Business Performance Insights  
-[![Business Performance Insights](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/2020_Business_Performance.PNG)](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/2020_Business_Performance.PNG)  
----
-
-### Profit Analysis  
-[![Profit Analysis](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Profit Analysis_2020.PNG)](AtliQ_Hardware_Sales_Analysis/blob/main/Screenshots/Profit Analysis_2020.PNG)  
----
 
 ##  Workflow Summary
 
